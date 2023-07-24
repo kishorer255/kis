@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+content="widht=device-width, initial-scale=1">
+<style>
+*{
+box-sizing:border-box;
+}
+.column{
+float:left;
+width:33.33%;
+padding:10px;
+height:300px;}
+.row:after{
+content:" ";
+display:table;
+clear:both;
+}
+</style>
+
+</head>
+<body>
+<h2> Three Equal Columns</h2>
+
+<div class="row">
+<div class="column" style="background-color:red;">
+<h2> Voltage divider bias configuration</h2>
+<p> There are two methods that can be applied to analyze the voltage divider configuration. the reason for the choice of names for this configuration will become obvious in the analysis to follow.
+</p>
+</div>
+
+<div class="column" style="background-color:blue;">
+<h2> Common base configuration</h2>
+<p> The common base configuration is unique in that tha applied signal is connected to the emitter terminal and the base is at, or just above, ground potential.
+</p>
+</div>
+<div class="column" style="background-color:green;">
+<h2>Emitter follower configuration</h2>
+<p> A configuration where the output is taken off the emitter terminal.
+</p>
+</div>
+</div>
+</body>
+</html>
+
